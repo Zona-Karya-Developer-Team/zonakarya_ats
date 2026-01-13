@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @include respond-to('phone-landscape') {
     .newsletter-style-01 {
         &.box-shadow {
@@ -32,4 +33,40 @@
             } 
         }
     }
+=======
+@include respond-to('phone-landscape') {
+    .newsletter-style-01 {
+        &.box-shadow {
+            box-shadow: none;
+        }
+        input {
+            padding-right: 25px;
+            &.is-invalid {
+               padding-right: 30px; 
+            }
+        }
+        .btn {
+            position: relative;
+            margin-top: 15px;
+            width: 100%;
+            border-radius: 4px;
+        }
+    }
+    .newsletter-style-03 {
+        input {
+            padding-right: 90px !important;
+            padding-left: 30px !important;
+        }
+        .btn {
+            padding: 12px 30px 12px 30px;
+            i {
+                margin-left: 0;
+                margin-right: 0;
+            }
+            span {
+                display: none
+            } 
+        }
+    }
+>>>>>>> e2b1fc19647ab6e1e179280d32c4289ebc113927
 }

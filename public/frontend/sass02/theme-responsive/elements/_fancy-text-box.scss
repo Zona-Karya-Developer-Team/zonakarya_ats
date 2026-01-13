@@ -1,5 +1,12 @@
+<<<<<<< HEAD
 @include respond-to('phone-portrait') {
     .fancy-text-box-style-01 {
         border-right: 0 solid;
     } 
+=======
+@include respond-to('phone-portrait') {
+    .fancy-text-box-style-01 {
+        border-right: 0 solid;
+    } 
+>>>>>>> e2b1fc19647ab6e1e179280d32c4289ebc113927
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @include respond-to('laptop') {
     .fancy-text-style-3 {  
         transform: rotate(0deg) !important; 
@@ -14,4 +15,22 @@
             left: -1px;
         }
     }
+=======
+@include respond-to('laptop') {
+    .fancy-text-style-3 {  
+        transform: rotate(0deg) !important; 
+    } 
+}
+@include respond-to('phone-landscape') {
+    .shadow-in {
+        .separator-animation {
+            width: calc(100% + 5px) !important;
+        }
+    }
+    .text-highlight {
+        .separator-animation {
+            left: -1px;
+        }
+    }
+>>>>>>> e2b1fc19647ab6e1e179280d32c4289ebc113927
 }

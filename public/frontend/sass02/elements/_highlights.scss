@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Text highlight */ 
 .text-highlight {
     position: relative;
@@ -20,4 +21,28 @@
     .separator-animation {
         width: calc(100% + 6px) !important;
     }
+=======
+/* Text highlight */ 
+.text-highlight {
+    position: relative;
+    z-index: 1; 
+    span {
+        display: inline-block;
+        left:-3px;
+        position: absolute;
+        z-index: -1;
+        width: calc(100% + 6px);
+    }
+}
+
+/* Separator animation */ 
+.separator-animation {
+    width: 0 !important;
+    @include prefix(transition, all 1s cubic-bezier(0.165, 0.84, 0.44, 1), webkit);
+}
+.shadow-in {
+    .separator-animation {
+        width: calc(100% + 6px) !important;
+    }
+>>>>>>> e2b1fc19647ab6e1e179280d32c4289ebc113927
 }

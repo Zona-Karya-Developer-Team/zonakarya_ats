@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @include respond-to('tablet') {
     .counter-style-06 {
         .feature-box {
@@ -21,4 +22,29 @@
             }
         } 
     }
+=======
+@include respond-to('tablet') {
+    .counter-style-06 {
+        .feature-box {
+            &:nth-last-child(2n+1) {
+                .feature-box-content { 
+                    &:after {
+                        display:none;
+                    }
+                }
+            }
+        } 
+    }
+}
+@include respond-to('phone-portrait') {
+    .counter-style-06 {
+        .feature-box {
+            .feature-box-content { 
+                &:after {
+                    display:none;
+                }
+            }
+        } 
+    }
+>>>>>>> e2b1fc19647ab6e1e179280d32c4289ebc113927
 }

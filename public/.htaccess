@@ -5,12 +5,15 @@
 
     RewriteEngine On
 
+<<<<<<< HEAD
     # =============================
     # Redirect HTTP → HTTPS
     # =============================
     RewriteCond %{HTTPS} !=on
     RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
+=======
+>>>>>>> e2b1fc19647ab6e1e179280d32c4289ebc113927
     # Handle Authorization Header
     RewriteCond %{HTTP:Authorization} .
     RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
@@ -24,6 +27,10 @@
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^ index.php [L]
+<<<<<<< HEAD
 </IfModule>
 
 
+=======
+</IfModule>
+>>>>>>> e2b1fc19647ab6e1e179280d32c4289ebc113927

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @include respond-to('laptop') {
     [data-parallax-background-ratio], 
     .fix-background {
@@ -11,4 +12,19 @@
         background-position: center !important;
         background-repeat: no-repeat !important;
     }
+=======
+@include respond-to('laptop') {
+    [data-parallax-background-ratio], 
+    .fix-background {
+        background-attachment: inherit !important;
+        background-position: center !important;
+    } 
+}
+.is-touchable {
+    [data-parallax-background-ratio] {
+        background-attachment: inherit !important;
+        background-position: center !important;
+        background-repeat: no-repeat !important;
+    }
+>>>>>>> e2b1fc19647ab6e1e179280d32c4289ebc113927
 }

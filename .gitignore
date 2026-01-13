@@ -4,8 +4,11 @@
 *.log
 *.sql
 .DS_Store
+<<<<<<< HEAD
 
 
 /public/uploads/
 /storage/app/public/
 /public/storage/
+=======
+>>>>>>> e2b1fc19647ab6e1e179280d32c4289ebc113927

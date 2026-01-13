@@ -1,7 +1,16 @@
+<<<<<<< HEAD
 @include respond-to('laptop') {
     .interactive-banner-style-06 {
         .interactive-banners-content {
             transform: translateY(calc(100% - 110px));
         }
     }
+=======
+@include respond-to('laptop') {
+    .interactive-banner-style-06 {
+        .interactive-banners-content {
+            transform: translateY(calc(100% - 110px));
+        }
+    }
+>>>>>>> e2b1fc19647ab6e1e179280d32c4289ebc113927
 }

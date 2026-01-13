@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @include respond-to('tablet') {
     .social-icon-style-06 {
         ul {
@@ -24,4 +25,32 @@
             margin: 0 6px; 
         }
     }
+=======
+@include respond-to('tablet') {
+    .social-icon-style-06 {
+        ul {
+            li {
+                a {
+                    padding: 0 20px;
+                }
+            }
+        }
+    }
+}
+@include respond-to('phone-landscape') {
+    .elements-social {
+        ul {
+            li { 
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
+@include respond-to('phone-portrait') {
+    .large-icon, .medium-icon, .extra-large-icon {
+        li {
+            margin: 0 6px; 
+        }
+    }
+>>>>>>> e2b1fc19647ab6e1e179280d32c4289ebc113927
 }

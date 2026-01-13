@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @include respond-to('tablet') {
     #map {
         height: 450px;
@@ -10,4 +11,18 @@
     .infowindow {
         padding: 20px 20px 20px 20px !important;
     }
+=======
+@include respond-to('tablet') {
+    #map {
+        height: 450px;
+    }
+}
+@include respond-to('phone-portrait') {
+    #map {
+        height: 420px;
+    }
+    .infowindow {
+        padding: 20px 20px 20px 20px !important;
+    }
+>>>>>>> e2b1fc19647ab6e1e179280d32c4289ebc113927
 }
