@@ -4,3 +4,8 @@
 *.log
 *.sql
 .DS_Store
+
+
+/public/uploads/
+/storage/app/public/
+/public/storage/
